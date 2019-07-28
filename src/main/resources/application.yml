@@ -1,0 +1,10 @@
+spring:
+  rabbitmq:
+    host: localhost
+    password: guest
+    username: guest
+    listener:
+      type: simple
+      simple:
+        default-requeue-rejected: false
+        acknowledge-mode: manual
